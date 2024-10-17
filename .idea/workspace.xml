@@ -4,23 +4,83 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6abe4d47-8fb3-4db8-8b35-c23754031ea1" name="Changes" comment="" />
+    <list default="true" id="6abe4d47-8fb3-4db8-8b35-c23754031ea1" name="Changes" comment="Ajout d'un projet Spring Boot">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Piste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Skier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/ICourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/IInstructorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/IPisteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/IRegistrationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/ISkierRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/ISubscriptionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/SkierServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/OudayOueslatiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/OudayOueslati_4TWIN5Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/Piste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Subscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/Support.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Support.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/TypeCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/TypeCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/TypeSubscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/TypeSubscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/skier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tn/esprit/ouday_oueslati/OudayOueslatiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tn/esprit/ouday_oueslati_4TWIN5/OudayOueslatiApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/OudayOueslatiApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/Instructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/Piste.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/Registration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/Subscription.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/Support.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/TypeCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/TypeSubscription.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/skier.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ouday &lt;ouday.oueslati@esprit.tn&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;oudayoueslati&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/oudayoueslati/Project_SpringBoot.git&quot;,
+    &quot;accountId&quot;: &quot;a82b4a7a-b900-4946-aba0-3292e75b1de6&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -40,34 +100,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.ouday_oueslati [clean].executor": "Run",
-    "Maven.ouday_oueslati [compile].executor": "Run",
-    "Maven.ouday_oueslati [deploy].executor": "Run",
-    "Maven.ouday_oueslati [install].executor": "Run",
-    "Maven.ouday_oueslati [package].executor": "Run",
-    "Maven.ouday_oueslati [test].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.OudayOueslatiApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.ouday_oueslati [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ouday_oueslati [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ouday_oueslati [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ouday_oueslati [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ouday_oueslati [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ouday_oueslati [test].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.OudayOueslatiApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OudayOueslati_4TWIN5Application.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration name="OudayOueslatiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="ouday_oueslati" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.ouday_oueslati.OudayOueslatiApplication" />
+    <configuration name="OudayOueslati_4TWIN5Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ouday_oueslati_4TWIN5" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.ouday_oueslati_4TWIN5.OudayOueslati_4TWIN5Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,10 +158,27 @@
       <workItem from="1727453112561" duration="10000" />
       <workItem from="1727559374775" duration="1820000" />
       <workItem from="1727728568526" duration="3159000" />
+      <workItem from="1727735498510" duration="87000" />
+      <workItem from="1727780475817" duration="9128000" />
+      <workItem from="1728391578308" duration="8463000" />
+      <workItem from="1728427141211" duration="150000" />
     </task>
+    <task id="LOCAL-00001" summary="Ajout d'un projet Spring Boot">
+      <option name="closed" value="true" />
+      <created>1727734016797</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727734016797</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajout d'un projet Spring Boot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout d'un projet Spring Boot" />
   </component>
 </project>
