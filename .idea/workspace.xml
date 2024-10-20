@@ -4,43 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6abe4d47-8fb3-4db8-8b35-c23754031ea1" name="Changes" comment="Ajout d'un projet Spring Boot">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Piste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Skier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/ICourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/IInstructorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/IPisteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/IRegistrationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/ISkierRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/ISubscriptionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/SkierServicesImpl.java" afterDir="false" />
+    <list default="true" id="6abe4d47-8fb3-4db8-8b35-c23754031ea1" name="Changes" comment="mise_a_jour">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/CourseRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/InstructorRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/PisteRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/RegistrationRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/SkierRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/SubscriptionRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/CourseServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/ICourseServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/IInstructorServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/IPisteServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/IRegistrationServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/ISkierServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/ISubscriptionServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/InstructorServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/PisteServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/RegistrationServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/SubscriptionServicesImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/OudayOueslatiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/OudayOueslati_4TWIN5Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Instructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/Piste.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Subscription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/Support.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Support.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/TypeCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/TypeCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/TypeSubscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/TypeSubscription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/course.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati/entities/skier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tn/esprit/ouday_oueslati/OudayOueslatiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tn/esprit/ouday_oueslati_4TWIN5/OudayOueslatiApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/OudayOueslatiApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/Color.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/Instructor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/Piste.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/Registration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/Subscription.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/Support.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/TypeCourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/TypeSubscription.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tn/esprit/ouday_oueslati/entities/skier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Piste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Piste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Skier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Skier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Subscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/ICourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/ICourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/SkierServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/SkierServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ouday_oueslati-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ouday_oueslati-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tn.esprit.ouday_oueslati.OudayOueslatiApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tn.esprit.ouday_oueslati.OudayOueslatiApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tn/esprit/ouday_oueslati/OudayOueslatiApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +60,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -91,6 +96,9 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -100,32 +108,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.ouday_oueslati [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ouday_oueslati [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ouday_oueslati [deploy].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ouday_oueslati [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ouday_oueslati [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ouday_oueslati [test].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.OudayOueslatiApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.OudayOueslati_4TWIN5Application.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "Maven.ouday_oueslati [clean].executor": "Run",
+    "Maven.ouday_oueslati [compile].executor": "Run",
+    "Maven.ouday_oueslati [deploy].executor": "Run",
+    "Maven.ouday_oueslati [install].executor": "Run",
+    "Maven.ouday_oueslati [package].executor": "Run",
+    "Maven.ouday_oueslati [test].executor": "Run",
+    "Maven.ouday_oueslati_4TWIN5 [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.OudayOueslatiApplication.executor": "Run",
+    "Spring Boot.OudayOueslati_4TWIN5Application.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ouday/Downloads/demoouday/ouday_oueslati",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="tn.esprit.ouday_oueslati_4TWIN5.controllers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OudayOueslati_4TWIN5Application">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="OudayOueslati_4TWIN5Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ouday_oueslati_4TWIN5" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.ouday_oueslati_4TWIN5.OudayOueslati_4TWIN5Application" />
@@ -133,6 +153,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -162,6 +187,11 @@
       <workItem from="1727780475817" duration="9128000" />
       <workItem from="1728391578308" duration="8463000" />
       <workItem from="1728427141211" duration="150000" />
+      <workItem from="1729169423524" duration="1006000" />
+      <workItem from="1729325722887" duration="9513000" />
+      <workItem from="1729442486441" duration="7511000" />
+      <workItem from="1729450072098" duration="481000" />
+      <workItem from="1729450566681" duration="470000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout d'un projet Spring Boot">
       <option name="closed" value="true" />

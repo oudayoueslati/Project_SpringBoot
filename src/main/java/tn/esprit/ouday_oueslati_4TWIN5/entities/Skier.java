@@ -1,11 +1,17 @@
 package tn.esprit.ouday_oueslati_4TWIN5.entities;
 
 import jakarta.persistence.*;
+import lombok.*;
+import lombok.experimental.FieldDefaults;
 
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.Set;
-
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@FieldDefaults(level= AccessLevel.PRIVATE)
 @Entity
 
 public class Skier implements Serializable {
@@ -17,7 +23,7 @@ public class Skier implements Serializable {
     String city;
     @OneToOne(cascade = {CascadeType.PERSIST, CascadeType.REMOVE})
     Subscription subscription;
-    @OneToMany(mappedBy = "Skier", fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "skier", fetch = FetchType.EAGER)
     Set<Registration> registrations;
     @ManyToMany(mappedBy = "skiers")
     Set<Piste> pistes;
