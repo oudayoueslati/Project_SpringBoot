@@ -33,7 +33,8 @@ public  class InstructorServicesImpl implements IInstructorServices{
     }
 
     @Override
-    public void removeInstructor(Long numInstructor) {
+    public Instructor removeInstructor(Long numInstructor) {
         instructorRepository.deleteById(numInstructor);
+        return null;
     }
 }

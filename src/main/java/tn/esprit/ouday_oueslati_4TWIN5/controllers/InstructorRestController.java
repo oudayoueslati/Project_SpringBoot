@@ -14,13 +14,20 @@ public class InstructorRestController {
     private final IInstructorServices instructorServices;
 
     @PostMapping("/add")
-    public Instructor saveInstructor(Instructor instructor){
+    public Instructor saveInstructor(@RequestBody  Instructor instructor){
         return instructorServices.addInstructor(instructor);
+    }
+    @PutMapping("/update")
+    public Instructor updateInstructor(@RequestBody Instructor instructor){
+        return instructorServices.updateInstructor(instructor);
+    }
+    @DeleteMapping ("/delete/{numInstructor}")
+    public Instructor removeInstructor(@PathVariable Long numInstructor){
+        return instructorServices.removeInstructor(numInstructor);
     }
     @GetMapping("/get/{numInstructor}")
     public Instructor getPInstructor(@PathVariable Long numInstructor){
 
         return instructorServices.retrieveInstructor(numInstructor);
     }
-
 }

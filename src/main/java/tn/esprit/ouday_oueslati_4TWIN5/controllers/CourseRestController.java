@@ -11,10 +11,15 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class CourseRestController {
     private final ICourseServices courseServices;
+    private Long numCourse;
 
     @PostMapping("/add")
     public Course saveCourse(Course course){
         return courseServices.addCourse(course);
+    }
+    @PutMapping("/update")
+    public Course updateCourse(@RequestBody Course course){
+        return courseServices.updateCourse(course);
     }
     @GetMapping("/get/{numCourse}")
     public Course getCourse(@PathVariable Long numCourse){
