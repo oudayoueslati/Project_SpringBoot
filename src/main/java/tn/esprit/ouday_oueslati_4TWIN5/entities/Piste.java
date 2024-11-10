@@ -6,7 +6,6 @@ import lombok.experimental.FieldDefaults;
 
 import java.io.Serializable;
 import java.util.Set;
-
 @Getter
 @Setter
 @AllArgsConstructor
@@ -16,7 +15,6 @@ import java.util.Set;
 public class Piste implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     Long numPiste;
     String namePiste;
     @Enumerated(EnumType.STRING)
@@ -25,6 +23,5 @@ public class Piste implements Serializable {
     int slope;
     @ManyToMany
     Set<Skier>skiers;
-
 
 }

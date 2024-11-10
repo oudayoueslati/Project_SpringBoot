@@ -2,7 +2,11 @@ package tn.esprit.ouday_oueslati_4TWIN5.services;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import tn.esprit.ouday_oueslati_4TWIN5.entities.Course;
 import tn.esprit.ouday_oueslati_4TWIN5.entities.Registration;
+import tn.esprit.ouday_oueslati_4TWIN5.repositries.ICourseRepository;
 import tn.esprit.ouday_oueslati_4TWIN5.repositries.IRegistrationRepository;
 import java.util.List;
 
@@ -11,6 +15,7 @@ import java.util.List;
 public class RegistrationServicesImpl implements IRegistrationServices{
 
     private final IRegistrationRepository registrationRepository;
+    private final ICourseRepository courseRepository;
 
     public  Registration addRegistration(Registration registration){
         return registrationRepository.save(registration);
@@ -31,9 +36,16 @@ public class RegistrationServicesImpl implements IRegistrationServices{
         return (List<Registration>) registrationRepository.findAll();
     }
 
-    @Override
+
     public void removeRegistration(Long numRegistration) {
         registrationRepository.deleteById(numRegistration);
+    }
+
+    @Override
+    public  Registration addRegistrationAndAssignToCourse( Registration registration,  Long numCourse){
+        Course course = courseRepository.findById(numCourse).orElse(null);
+        registration.setCourse(course);
+        return registrationRepository.save(registration);
     }
 
 }

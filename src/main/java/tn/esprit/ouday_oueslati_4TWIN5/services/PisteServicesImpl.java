@@ -4,7 +4,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import tn.esprit.ouday_oueslati_4TWIN5.entities.Piste;
 import tn.esprit.ouday_oueslati_4TWIN5.repositries.IPisteRepository;
-
 import java.util.List;
 
 @RequiredArgsConstructor
@@ -32,9 +31,7 @@ public class PisteServicesImpl implements  IPisteServices{
         return (List<Piste>) pisteRepository.findAll();
     }
 
-    @Override
     public void removePiste(Long numPiste) {
         pisteRepository.deleteById(numPiste);
     }
-
 }

@@ -1,5 +1,6 @@
 package tn.esprit.ouday_oueslati_4TWIN5.services;
 
+import tn.esprit.ouday_oueslati_4TWIN5.entities.Registration;
 import tn.esprit.ouday_oueslati_4TWIN5.entities.Skier;
 
 import java.time.LocalDate;
@@ -15,4 +16,5 @@ public interface ISkierServices {
     void assignSkier(Long numSkier, Long numPiste);
     Skier getByFirstNameAndLastName(String firstName, String lastName);
     Skier getBybirthDate(LocalDate birthDate);
+    Registration addRegistrationAndAssignToSkier(Registration registration, Long numSkier);
 }

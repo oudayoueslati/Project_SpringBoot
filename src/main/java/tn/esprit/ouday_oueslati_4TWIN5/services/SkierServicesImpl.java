@@ -3,9 +3,11 @@ package tn.esprit.ouday_oueslati_4TWIN5.services;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import tn.esprit.ouday_oueslati_4TWIN5.entities.Piste;
+import tn.esprit.ouday_oueslati_4TWIN5.entities.Registration;
 import tn.esprit.ouday_oueslati_4TWIN5.entities.Skier;
 import tn.esprit.ouday_oueslati_4TWIN5.entities.Subscription;
 import tn.esprit.ouday_oueslati_4TWIN5.repositries.IPisteRepository;
+import tn.esprit.ouday_oueslati_4TWIN5.repositries.IRegistrationRepository;
 import tn.esprit.ouday_oueslati_4TWIN5.repositries.ISkierRepository;
 import tn.esprit.ouday_oueslati_4TWIN5.repositries.ISubscriptionRepository;
 
@@ -19,6 +21,7 @@ public class SkierServicesImpl implements ISkierServices{
     private final ISkierRepository skierRepository;
     private final IPisteRepository pisteRepository;
     private final ISubscriptionRepository subscriptionRepository;
+    private final IRegistrationRepository registrationRepository;
 
 
     public Skier addSkier (Skier skier){
@@ -64,6 +67,12 @@ public class SkierServicesImpl implements ISkierServices{
     @Override
     public Skier getBybirthDate(LocalDate birthDate) {
         return skierRepository.findByBirthDate(birthDate);
+    }
+    @Override
+     public Registration addRegistrationAndAssignToSkier(Registration registration, Long numSkier){
+        Skier skier = skierRepository.findById(numSkier).orElse(null);
+        registration.setSkier(skier);
+        return registrationRepository.save(registration);
     }
 
 }
