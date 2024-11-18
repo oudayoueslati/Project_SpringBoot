@@ -1,7 +1,9 @@
 package tn.esprit.ouday_oueslati_4TWIN5.services;
 import tn.esprit.ouday_oueslati_4TWIN5.entities.Subscription;
+import tn.esprit.ouday_oueslati_4TWIN5.entities.TypeSubscription;
 
 import java.util.List;
+import java.util.Set;
 
 public interface ISubscriptionServices {
 
@@ -10,4 +12,5 @@ public interface ISubscriptionServices {
     Subscription retrieveSubscription(Long numSub);
     List<Subscription> retrieveAll();
     void removeSubscription(Long numSub);
+    Set<Subscription> getSubscriptionByType(TypeSubscription type);
 }
