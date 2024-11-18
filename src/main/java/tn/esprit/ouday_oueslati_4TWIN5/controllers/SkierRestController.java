@@ -5,8 +5,10 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import tn.esprit.ouday_oueslati_4TWIN5.entities.Registration;
 import tn.esprit.ouday_oueslati_4TWIN5.entities.Skier;
+import tn.esprit.ouday_oueslati_4TWIN5.entities.TypeSubscription;
 import tn.esprit.ouday_oueslati_4TWIN5.services.ISkierServices;
 import java.time.LocalDate;
+import java.util.List;
 
 @Tag(name = "Gestion Skier")
 @RequiredArgsConstructor
@@ -55,6 +57,15 @@ public class SkierRestController {
     {
         return skierServices.addRegistrationAndAssignToSkier(registration, numSkier);
     }
+    @Operation(description = "ajouter Skier et assigner au Course avec numCourse")
+    @PutMapping("/addSkierAndAssignToCourse/{numCourse}")
+    public Skier addSkierAndAssignToCourse(@RequestBody Skier skier ,@PathVariable Long numCourse){
+        return skierServices.addSkierAndAssignToCourse(skier, numCourse);
+    }
+    @Operation(description = "récupérer Skier avec typeSubscription")
+    @GetMapping("/bySubscriptionType")
+    public List<Skier> getSkiersBySubscriptionType(@RequestParam TypeSubscription typeSubscription) {
+        return skierServices.retrieveSkiersBySubscriptionType(typeSubscription);
+    }
 }
-
 

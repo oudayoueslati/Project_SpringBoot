@@ -8,6 +8,8 @@ import tn.esprit.ouday_oueslati_4TWIN5.entities.Instructor;
 import tn.esprit.ouday_oueslati_4TWIN5.services.IInstructorServices;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @Tag(name = "Gestion Instructor")
 @RequiredArgsConstructor
 @RequestMapping("instructor")
@@ -35,5 +37,13 @@ public class InstructorRestController {
     public Instructor getPInstructor(@PathVariable Long numInstructor){
 
         return instructorServices.retrieveInstructor(numInstructor);
+    }
+    @PutMapping("/addAndAssignToCourses/{numCourse}")
+    public  Instructor addAndAssignToCourses(@RequestBody Instructor instructor, @RequestParam List<Long> numCourses) {
+        return instructorServices.addAndAssignToCourse(instructor, numCourses);
+    }
+    @PutMapping("/addAndAssignCourses")
+    public Instructor addAndAssignCourses(@RequestBody Instructor instructor){
+        return instructorServices.addAndAssignCourses(instructor);
     }
 }

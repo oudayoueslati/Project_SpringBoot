@@ -6,23 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="6abe4d47-8fb3-4db8-8b35-c23754031ea1" name="Changes" comment="mise_a_jour">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/CourseRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/CourseRestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/InstructorRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/InstructorRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/PisteRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/PisteRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/RegistrationRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/RegistrationRestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/SkierRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/SkierRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/SubscriptionRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/SubscriptionRestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Piste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Piste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/entities/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/IPisteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/IPisteRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/ISkierRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/ISkierRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/IPisteServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/IPisteServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/IRegistrationServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/IRegistrationServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/ICourseServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/ICourseServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/IInstructorServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/IInstructorServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/ISkierServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/ISkierServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/PisteServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/PisteServicesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/RegistrationServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/RegistrationServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/InstructorServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/InstructorServicesImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/SkierServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/SkierServicesImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +181,12 @@
       <workItem from="1730753452760" duration="2936000" />
       <workItem from="1730810965026" duration="9277000" />
       <workItem from="1731187157443" duration="1173000" />
-      <workItem from="1731188485073" duration="3017000" />
+      <workItem from="1731188485073" duration="4105000" />
+      <workItem from="1731356377072" duration="24000" />
+      <workItem from="1731415369898" duration="2926000" />
+      <workItem from="1731418321245" duration="6590000" />
+      <workItem from="1731534226862" duration="545000" />
+      <workItem from="1731949795160" duration="4261000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout d'un projet Spring Boot">
       <option name="closed" value="true" />

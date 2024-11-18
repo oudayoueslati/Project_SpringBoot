@@ -25,4 +25,8 @@ public class Course implements Serializable {
     int timeSlot;
     @OneToMany(mappedBy = "course")
     Set<Registration> registrations;
+
+    public void setInstructor(Instructor savedInstructor) {
+
+    }
 }
