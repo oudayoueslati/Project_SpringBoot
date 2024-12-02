@@ -68,4 +68,3 @@ public class SkierRestController {
         return skierServices.retrieveSkiersBySubscriptionType(typeSubscription);
     }
 }
-

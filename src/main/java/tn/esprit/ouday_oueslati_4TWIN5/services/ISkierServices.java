@@ -20,4 +20,6 @@ public interface ISkierServices {
     Registration addRegistrationAndAssignToSkier(Registration registration, Long numSkier);
     Skier addSkierAndAssignToCourse(Skier skier , Long numCourse);
     List<Skier> retrieveSkiersBySubscriptionType(TypeSubscription typeSubscription);
+
+    void getSkiersNotif();
 }

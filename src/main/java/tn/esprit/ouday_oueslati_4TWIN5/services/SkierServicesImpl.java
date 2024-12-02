@@ -1,6 +1,9 @@
 package tn.esprit.ouday_oueslati_4TWIN5.services;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.boot.LazyInitializationExcludeFilter;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import tn.esprit.ouday_oueslati_4TWIN5.entities.*;
 import tn.esprit.ouday_oueslati_4TWIN5.repositries.*;
@@ -9,6 +12,7 @@ import java.util.List;
 
 @RequiredArgsConstructor
 @Service
+@Slf4j
 public class SkierServicesImpl implements ISkierServices{
 
     private final ISkierRepository skierRepository;
@@ -16,6 +20,7 @@ public class SkierServicesImpl implements ISkierServices{
     private final ISubscriptionRepository subscriptionRepository;
     private final IRegistrationRepository registrationRepository;
     private final ICourseRepository courseRepository;
+    private final LazyInitializationExcludeFilter scheduledBeanLazyInitializationExcludeFilter;
 
 
     public Skier addSkier (Skier skier){
@@ -79,5 +84,14 @@ public class SkierServicesImpl implements ISkierServices{
     @Override
     public List<Skier> retrieveSkiersBySubscriptionType(TypeSubscription typeSubscription) {
         return skierRepository.findBySubscription_TypeSub(typeSubscription);
+    }
+    @Scheduled(cron = "0 */1 * * * *")
+    @Override
+    public void getSkiersNotif() {
+        // System.out.println("Bonjour !");
+        log.info("Bonjour !");
+        log.debug("in method : getSkiersNotif !");
+        log.warn("warning !!");
+        log.error("c'est une exception !");
     }
 }

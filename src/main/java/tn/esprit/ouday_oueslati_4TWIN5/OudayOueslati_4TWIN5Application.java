@@ -2,7 +2,9 @@ package tn.esprit.ouday_oueslati_4TWIN5;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
+@EnableScheduling
 @SpringBootApplication
 public class OudayOueslati_4TWIN5Application {
 

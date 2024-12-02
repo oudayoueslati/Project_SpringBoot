@@ -3,15 +3,11 @@ package tn.esprit.ouday_oueslati_4TWIN5.controllers;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 import tn.esprit.ouday_oueslati_4TWIN5.entities.Course;
-import tn.esprit.ouday_oueslati_4TWIN5.entities.Instructor;
 import tn.esprit.ouday_oueslati_4TWIN5.services.ICourseServices;
 import org.springframework.web.bind.annotation.*;
-import tn.esprit.ouday_oueslati_4TWIN5.services.IInstructorServices;
 
-import java.util.List;
 
 @Tag(name = "Gestion Course")
 @RequiredArgsConstructor
@@ -19,7 +15,6 @@ import java.util.List;
 @RestController
 public class CourseRestController {
     private final ICourseServices courseServices;
-    private final IInstructorServices instructorServices;
     @Operation(description = "sauvegarder Course")
     @PostMapping("/add")
     public Course saveCourse(Course course){
@@ -36,5 +31,4 @@ public class CourseRestController {
 
         return courseServices.retrieveCourse(numCourse);
     }
-
 }
