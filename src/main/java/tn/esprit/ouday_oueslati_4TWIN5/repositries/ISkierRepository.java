@@ -1,6 +1,5 @@
 package tn.esprit.ouday_oueslati_4TWIN5.repositries;
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.data.repository.query.Param;
 import tn.esprit.ouday_oueslati_4TWIN5.entities.Skier;
 import tn.esprit.ouday_oueslati_4TWIN5.entities.TypeSubscription;
 

@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6abe4d47-8fb3-4db8-8b35-c23754031ea1" name="Changes" comment="mise_a_jour">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/Aspect/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/Aspect/PerformanceAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/OudayOueslati_4TWIN5Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/OudayOueslati_4TWIN5Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/CourseRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/CourseRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/SkierRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/controllers/SkierRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/ISkierServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/ISkierServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/ISubscriptionServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/ISubscriptionServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/SkierServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/SkierServicesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/SubscriptionServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/services/SubscriptionServicesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/ISkierRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/ouday_oueslati_4TWIN5/repositries/ISkierRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,6 +185,7 @@
       <workItem from="1732019551486" duration="1839000" />
       <workItem from="1732625517439" duration="3959000" />
       <workItem from="1732629734280" duration="4202000" />
+      <workItem from="1733229588617" duration="7920000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout d'un projet Spring Boot">
       <option name="closed" value="true" />
